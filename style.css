@@ -1,0 +1,42 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour les boutons */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Style spécifique pour les éléments du jeu */
+#joueur, #robot {
+    font-weight: bold;
+}
+
+#resultat {
+    font-size: 28px;
+    color: #e74c3c;
+    font-weight: bold;
+}
