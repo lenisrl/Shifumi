@@ -1,4 +1,3 @@
-/* Style de base pour le corps de la page */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -7,7 +6,6 @@ body {
     padding: 0;
 }
 
-/* Style pour les boutons */
 button {
     font-size: 18px;
     padding: 10px 20px;
@@ -24,13 +22,11 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Style pour les paragraphes */
 p {
     font-size: 24px;
     margin: 10px 0;
 }
 
-/* Style spécifique pour les éléments du jeu */
 #joueur, #robot {
     font-weight: bold;
 }
